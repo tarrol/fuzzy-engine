@@ -1,11 +1,11 @@
 # fuzzy-engine
 
 ## Table of Contents
-[Description](#description)
-[Install](#install)
-[Usage](#usage)
-[Contribution Guidelines](#contribution-guidelines)
-[Testing Instructions](#testing-instructions)
+[Description](#description)\
+[Install](#install)\
+[Usage](#usage)\
+[Contribution Guidelines](#contribution-guidelines)\
+[Testing Instructions](#testing-instructions)\
 
 ## Description
 A README file generator.

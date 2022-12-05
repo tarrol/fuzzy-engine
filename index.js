@@ -5,11 +5,11 @@ const generateREADME = ({ projectName, description, install, usage, contrGuideli
   `# ${projectName}
 
 ## Table of Contents
-[Description](#description)
-[Install](#install)
-[Usage](#usage)
-[Contribution Guidelines](#contribution-guidelines)
-[Testing Instructions](#testing-instructions)
+[Description](#description)\
+[Install](#install)\
+[Usage](#usage)\
+[Contribution Guidelines](#contribution-guidelines)\
+[Testing Instructions](#testing-instructions)\
 
 ## Description
 ${description}
