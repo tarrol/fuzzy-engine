@@ -9,7 +9,7 @@ const generateREADME = ({ projectName, description, install, usage, contrGuideli
 [Install](#install)\
 [Usage](#usage)\
 [Contribution Guidelines](#contribution-guidelines)\
-[Testing Instructions](#testing-instructions)\
+[Testing Instructions](#testing-instructions)
 
 ## Description
 ${description}

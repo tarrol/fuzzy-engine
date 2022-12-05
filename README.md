@@ -5,7 +5,7 @@
 [Install](#install)\
 [Usage](#usage)\
 [Contribution Guidelines](#contribution-guidelines)\
-[Testing Instructions](#testing-instructions)\
+[Testing Instructions](#testing-instructions)
 
 ## Description
 A README file generator.
