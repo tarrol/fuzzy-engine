@@ -4,6 +4,13 @@ const fs = require('fs');
 const generateREADME = ({ projectName, description, install, usage, contrGuidelines, testing }) =>
   `# ${projectName}
 
+## Table of Contents
+[Description](#description)
+[Install](#install)
+[Usage](#usage)
+[Contribution Guidelines](#contribution-guidelines)
+[Testing Instructions](#testing-instructions)
+
 ## Description
 ${description}
 
@@ -16,13 +23,13 @@ ${usage}
 ## Contribution Guidelines
 ${contrGuidelines}
 
-##Testing Instructions
+## Testing Instructions
 ${testing}
 
 `;
 
 inquirer
-  .prompt{
+  .prompt(
     [
       {
         type: 'input',
@@ -52,7 +59,14 @@ inquirer
       {
         type: 'input',
         name: 'testing',
-        message: ,
+        message: 'What are your instructions for testing this project?',
       },
     ]
-}
+  )
+  .then((responses) => {
+    const readMEContent = generateREADME(responses);
+
+    fs.writeFile('README.md', readMEContent, (err) =>
+      err ? console.log(err) : console.log('Successfully created README.md')
+    );
+  });
